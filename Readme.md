@@ -99,7 +99,7 @@ print(X_)
             [0.6027, 0.8027]])
 
 
-空域聚合，流程写作矩阵形式为$D_v^{-1} A X$
+空域聚合，流程写作矩阵形式为 $D_v^{-1} A X$
 
 其中D_v：点度矩阵
 
@@ -138,7 +138,7 @@ print(X_)
             [0.4156, 0.5441]])
 
 
-有向图的信息传递，目前模块只提供了空域上的信息聚合，比如source to target上的信息聚合为$D_v^{-1}A^{\top}X$
+有向图的信息传递，目前模块只提供了空域上的信息聚合，比如source to target上的信息聚合为 $D_v^{-1}A^{\top}X$
 
 
 ```python
@@ -185,7 +185,7 @@ plt.show()
 
 B为U,V的bipartite adjacency matrix(3×5)，相当于超图的关联矩阵
 
-特征聚合方式为$X_u = D_u^{-1} B X_v$，$X_v =  D_v^{-1} {B}^{\top} X_u$
+特征聚合方式为 $X_u = D_u^{-1} B X_v$， $X_v =  D_v^{-1} {B}^{\top} X_u$
 
 
 ```python
@@ -247,7 +247,7 @@ $D_v^{-1/2} H W_e D_e^{-1}H^T D_v^{-1/2}X$
 X_ = hg.smoothing_with_HGNN(X)
 ```
 
-空域上的信息聚合,H: $n×m$
+空域上的信息聚合,H:  $n×m$
 
 $X_e = D_e^{-1} H^T X_v$
 
