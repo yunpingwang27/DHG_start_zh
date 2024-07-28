@@ -8,10 +8,13 @@
 目前库版本的情况如下
 
 python>=3.8
+
 torch==1.13.1
+
 numpy==1.24.1
+
 安装cpu版pytorch的话，代码为
-conda install pytorch==1.13.1 cpuonly -c pytorch
+`conda install pytorch==1.13.1 cpuonly -c pytorch`
 
 之后再安装dhg就可以了
 `pip install dhg`
