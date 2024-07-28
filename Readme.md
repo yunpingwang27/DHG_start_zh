@@ -66,7 +66,7 @@ plt.show()
 
 
 接下来对特征进行谱方法的信息聚合
-$D_v^{-1/2}\hat{A} D_v^{-1/2}X$  ，其中$\hat{A} = A+I$
+$D_v^{-1/2}\hat{A} D_v^{-1/2}X$  ，其中 $\hat{A} = A+I$
 
 
 （GCN流程为 $X' = \sigma\left(D_v^{-1/2}\hat{A} D_v^{-1/2}X\Theta\right)$，相当于对信息聚合之后进行了线性与非线性变换）
