@@ -69,7 +69,7 @@ plt.show()
 $D_v^{-1/2}\hat{A} D_v^{-1/2}X$  ，其中$\hat{A} = A+I$
 
 
-（GCN流程为$X' = \sigma\left(D_v^{-1/2}\hat{A} D_v^{-1/2}X\Theta\right)$，相当于对信息聚合之后进行了线性与非线性变换）
+（GCN流程为 $X' = \sigma\left(D_v^{-1/2}\hat{A} D_v^{-1/2}X\Theta\right)$，相当于对信息聚合之后进行了线性与非线性变换）
 
 
 ```python
